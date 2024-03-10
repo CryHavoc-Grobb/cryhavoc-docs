@@ -1,0 +1,18 @@
+site_name: Cry Havoc
+theme:
+  name: material
+plugins:
+  - search
+  - awesome-pages
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - def_list
+  - abbr
+  - attr_list
+  - pymdownx.snippets:
+      auto_append:
+        - includes/terms.md
+watch:
+  - includes
